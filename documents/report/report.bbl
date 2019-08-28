@@ -1,0 +1,107 @@
+\begin{thebibliography}{14}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Agresti(2012)]{Categorical-Data-Analysis}
+A.~Agresti.
+\newblock \emph{Categorical Data Analysis}.
+\newblock Wiley, 2012.
+\newblock
+  \url{https://www.wiley.com/en-us/Categorical+Data+Analysis%2C+3rd+Edition-p-9780470463635}.
+
+\bibitem[Bishop(2006)]{Pattern-Recognition-and-Machine-Learning}
+C.~Bishop.
+\newblock \emph{Pattern Recognition and Machine Learning}.
+\newblock Springer, 2006.
+\newblock \url{https://www.springer.com/gp/book/9780387310732}.
+
+\bibitem[Geron(2017)]{Aurelien-Geron-2016}
+A.~Geron.
+\newblock \emph{Hands-On Machine Learning with Scikit-Learn \& TensorFlow}.
+\newblock OReilly, 2017.
+
+\bibitem[Gollapalli et~al.(2012)Gollapalli, Mitra, and
+  Giles]{Similar-Researcher-Search-in-Academic-Environments}
+S.~D. Gollapalli, P.~Mitra, and C.~L. Giles.
+\newblock Similar researcher search in academic environments.
+\newblock \emph{Proceedings of the 12th ACM/IEEE-CS joint conference on Digital
+  Libraries}, 2012.
+\newblock URL \url{https://dl.acm.org/citation.cfm?id=2232849}.
+
+\bibitem[Goodfellow et~al.(2016)Goodfellow, Bengio, and
+  Courville]{Goodfellow-et-al-2016}
+I.~Goodfellow, Y.~Bengio, and A.~Courville.
+\newblock \emph{Deep Learning}.
+\newblock MIT Press, 2016.
+\newblock \url{http://www.deeplearningbook.org}.
+
+\bibitem[Haruna et~al.(2017)Haruna, Ismail, Damiasih, Sutopo, and
+  Herawan]{A-collaborative-approach-for-research-paper-recommender-system}
+K.~Haruna, M.~A. Ismail, D.~Damiasih, J.~Sutopo, and T.~Herawan.
+\newblock A collaborative approach for research paper recommender system.
+\newblock \emph{PLoS ONE 12(10): e0184516}, 2017.
+\newblock URL
+  \url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0184516}.
+
+\bibitem[Igli{\v{c}} et~al.(2017)Igli{\v{c}}, Doreian, Kronegger, and
+  Ferligoj]{With-whom-do-researchers-collaborate-and-why?}
+H.~Igli{\v{c}}, P.~Doreian, L.~Kronegger, and A.~Ferligoj.
+\newblock With whom do researchers collaborate and why?
+\newblock \emph{Scientometrics}, 112\penalty0 (1):\penalty0 153--174, Jul 2017.
+\newblock ISSN 1588-2861.
+\newblock \doi{10.1007/s11192-017-2386-y}.
+\newblock URL \url{https://doi.org/10.1007/s11192-017-2386-y}.
+
+\bibitem[Kitchin and Rose(2017)]{scopus}
+J.~Kitchin and M.~E. Rose.
+\newblock Scopus: Python-based api-wrapper to access scopus, 2017.
+\newblock URL \url{https://scopus.readthedocs.io/en/latest/}.
+
+\bibitem[Krasser(2019)]{Variational-inference-for-Bayesian-neural-networks}
+M.~Krasser.
+\newblock Variational inference for bayesian neural networks, 2019.
+\newblock URL
+  \url{http://krasserm.github.io/2019/03/14/bayesian-neural-networks/}.
+
+\bibitem[Kruschke(2015)]{Doing-Bayesian-Data-Analysis}
+J.~K. Kruschke.
+\newblock \emph{Doing Bayesian Data Analysis}.
+\newblock Academic Press / Elsevier, 2015.
+\newblock \url{http://www.indiana.edu/~kruschke/DoingBayesianDataAnalysis/}.
+
+\bibitem[Newman(2004)]{scientific-collaboration}
+M.~E.~J. Newman.
+\newblock Coauthorship networks and patterns of scientific collaboration.
+\newblock \emph{Proceedings of the National Academy of Sciences of the United
+  States of America}, 101\penalty0 (1):\penalty0 5200--5205, 2004.
+\newblock URL
+  \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC387296/?tool=pmcentrez}.
+
+\bibitem[Ng(2018)]{Academic-Capability-Mapping}
+K.~T. Ng.
+\newblock Academic capability mapping.
+\newblock 2018.
+\newblock URL
+  \url{https://github.sydney.edu.au/king7184/Academic_Capability_Mapping/blob/master/_documents/thesis/thesis.pdf}.
+
+\bibitem[Sun et~al.(2018)Sun, Ng, Henville, and
+  Marchant.]{Hierarchical-Word-Mover-Distance-for-Collaboration-Recommender-System}
+C.~Sun, K.~T. Ng, P.~Henville, and R.~Marchant.
+\newblock Hierarchical word mover distance for collaboration recommender
+  system.
+\newblock \emph{The 16\textsuperscript{th} Australasian Data Mining
+  Conference}, 2018.
+
+\bibitem[Xu et~al.(2012)Xu, Guo, Hao, Ma, Lau, and
+  Xu]{Combining-social-network-and-semantic-concept-analysis-for-personalized-academic-researcher-recommendation}
+Y.~Xu, X.~Guo, J.~Hao, J.~Ma, R.~Y. Lau, and W.~Xu.
+\newblock Combining social network and semantic concept analysis for
+  personalized academic researcher recommendation.
+\newblock \emph{Decision Support Systems}, 54, 2012.
+\newblock URL
+  \url{https://ac.els-cdn.com/S0167923612001996/1-s2.0-S0167923612001996-main.pdf?_tid=db93b81b-2679-4bef-a258-955706be71f5&acdnat=1540251311_015d33d3a2473a6c4a0cc9a9a2353146}.
+
+\end{thebibliography}

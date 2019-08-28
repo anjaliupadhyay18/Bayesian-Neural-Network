@@ -1,0 +1,62 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[headheight=100pt, a4paper, total={6in, 10in}]{geometry}
+\usepackage{graphicx}
+\usepackage[square,numbers]{natbib}
+\usepackage[printwatermark]{xwatermark}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multirow}
+
+\DeclarePairedDelimiterX{\infdivx}[2]{(}{)}{%
+  #1\;\delimsize\|\;#2%
+}
+\newcommand{\infdiv}{D_{KL}\infdivx}
+\newcommand{\R}{\mathbb{R}}
+
+\bibliographystyle{abbrvnat}
+
+\begin{document}
+
+\title{
+	\textbf{COMP5329 Deep Learning}\\[0.5cm]
+	\textbf{A neural network approach to the researcher recommender system}
+}
+
+\author{
+	King Tao Ng\\
+	\texttt{king7184@uni.sydney.edu.au}\\
+	\and
+	Anjali Upadhyay\\
+	\texttt{aupa8388@uni.sydney.edu.au}\\
+}
+
+\maketitle % this produces the title block
+ 
+\begin{abstract}
+	
+	The Hierarchical Word Mover’s Distance has been recently proposed to find potential matches for research collaborations using a sample of journals extracted from the Faculty of Engineering and Information Technologies. The Hierarchical Word Mover’s Distance first applies the Word Mover’s Distance to journals and subsequently to researchers who have published them. However, this approach does not take social relations into account. For instance, a researcher may prefer to collaborate with others from the same school. Using a calculated distance metric from the Hierarchical Word Mover’s Distance as a predictor variable along with other social relations extracted from researcher profile pages, we use a neural network to compute a similarity metric among pairs of researchers. Because the similarity metric is a latent variable, we use a co-authorship count as a proxy. Higher similarity scores are; the more co-authorship counts should be. This paper simply extends the capstone project we previously worked on when we used a generalised linear model (GLM) to predict the co-authorship count. The neural network approach relaxes the linearity assumption that imposes on the GLM. In this paper, we describe the neural network approach and compare its performance with the GLM. It is believed the neural network would excel if the linearity assumption is violated.
+	
+\end{abstract}
+ 
+\section{Introduction}
+
+A plenty of information that floods over the internet makes searching for researchers a difficult task. Therefore, many institutes implemented such collaborative networks on the researcher profile pages based on historical publications and grants \cite{scientific-collaboration}. However, such visualisation
+does not show much value to the researchers because they already know whom they have collaborated with in the past. An alternative approach is to suggest relevant researchers based on some keywords provided by users. For instance, Gollapalli et al.\cite{Similar-Researcher-Search-in-Academic-Environments} computed similarity by using the Named-Entity Recognition (NER) on journals and researcher profile pages. The NER annotates names of entities from a document in which users search for. This method fails to look at semantics. We addressed this issue by introducing the Hierarchical Word Mover’s Distance \cite{Hierarchical-Word-Mover-Distance-for-Collaboration-Recommender-System, Academic-Capability-Mapping}. The Hierarchical Word Mover’s Distance first applies the Word Mover’s Distance \cite{From-Word-Embeddings-to-Document-Distances} to journals and subsequently to researchers who have published them. On the contrary, Xu et al.\cite{Combining-social-network-and-semantic-concept-analysis-for-personalized-academic-researcher-recommendation} concluded researcher collaboration systems had been thus far broadly classified into two categories for the past few years -- Semantic Analysis and Social Relations. Hence, they proposed a two-layer network approach that integrated the two together. While the aim is quite similar to Xu et al.\cite{Combining-social-network-and-semantic-concept-analysis-for-personalized-academic-researcher-recommendation}, our approach is completely different. Previously, we proposed to integrate the two by means of the GLM \cite{Academic-Capability-Mapping}. The GLM relies on the linearity assumption to hold. It is often not the case.
+
+\section{Research Questions}
+
+This paper simply extends the work we previously worked on and attempts to answer the following question:
+
+\begin{itemize}
+	\item While semantic analysis is a critical factor for the researcher recommender system, arguably, social relations are equally important. By integrating the two, can we improve researcher recommendations using the neural network? 
+\end{itemize}
+
+\medskip
+\bibliography{references}
+
+\end{document}

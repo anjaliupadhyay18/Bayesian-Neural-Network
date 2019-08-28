@@ -1,0 +1,56 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Gollapalli et~al.(2012)Gollapalli, Mitra, and
+  Giles]{Similar-Researcher-Search-in-Academic-Environments}
+S.~D. Gollapalli, P.~Mitra, and C.~L. Giles.
+\newblock Similar researcher search in academic environments.
+\newblock \emph{Proceedings of the 12th ACM/IEEE-CS joint conference on Digital
+  Libraries}, 2012.
+\newblock URL \url{https://dl.acm.org/citation.cfm?id=2232849}.
+
+\bibitem[Kusner et~al.(2015)Kusner, Sun, Kolkin, and
+  Weinberger]{From-Word-Embeddings-to-Document-Distances}
+M.~J. Kusner, Y.~Sun, N.~I. Kolkin, and K.~Q. Weinberger.
+\newblock From word embeddings to document distances.
+\newblock \emph{Proceedings of the 32\textsuperscript{nd} International
+  Conference on Machine Learning}, 37, 2015.
+\newblock URL \url{http://proceedings.mlr.press/v37/kusnerb15.pdf}.
+
+\bibitem[Newman(2004)]{scientific-collaboration}
+M.~E.~J. Newman.
+\newblock Coauthorship networks and patterns of scientific collaboration.
+\newblock \emph{Proceedings of the National Academy of Sciences of the United
+  States of America}, 101\penalty0 (1):\penalty0 5200--5205, 2004.
+\newblock URL
+  \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC387296/?tool=pmcentrez}.
+
+\bibitem[Ng(2018)]{Academic-Capability-Mapping}
+K.~T. Ng.
+\newblock Academic capability mapping.
+\newblock 2018.
+\newblock URL
+  \url{https://github.sydney.edu.au/king7184/Academic_Capability_Mapping/blob/master/_documents/thesis/thesis.pdf}.
+
+\bibitem[Sun et~al.(2018)Sun, Ng, Henville, and
+  Marchant.]{Hierarchical-Word-Mover-Distance-for-Collaboration-Recommender-System}
+C.~Sun, K.~T. Ng, P.~Henville, and R.~Marchant.
+\newblock Hierarchical word mover distance for collaboration recommender
+  system.
+\newblock \emph{The 16\textsuperscript{th} Australasian Data Mining
+  Conference}, 2018.
+
+\bibitem[Xu et~al.(2012)Xu, Guo, Hao, Ma, Lau, and
+  Xu]{Combining-social-network-and-semantic-concept-analysis-for-personalized-academic-researcher-recommendation}
+Y.~Xu, X.~Guo, J.~Hao, J.~Ma, R.~Y. Lau, and W.~Xu.
+\newblock Combining social network and semantic concept analysis for
+  personalized academic researcher recommendation.
+\newblock \emph{Decision Support Systems}, 54, 2012.
+\newblock URL
+  \url{https://ac.els-cdn.com/S0167923612001996/1-s2.0-S0167923612001996-main.pdf?_tid=db93b81b-2679-4bef-a258-955706be71f5&acdnat=1540251311_015d33d3a2473a6c4a0cc9a9a2353146}.
+
+\end{thebibliography}
